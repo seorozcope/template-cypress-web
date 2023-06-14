@@ -1,0 +1,17 @@
+{
+    "name": "template-testing-web",
+    "version": "1.0.0",
+    "description": "Proyecto de pruebas con Cypress",
+    "scripts": {
+        "test": "cypress run",
+        "report": "cypress run --env report=true",
+        "cy:open": "cypress open"
+    },
+    "devDependencies": {
+        "cypress": "latest",
+        "cypress-mochawesome-reporter": "latest",
+        "cypress-xpath": "latest",
+        "dotenv": "latest",
+        "oracledb": "latest"
+    }
+}
